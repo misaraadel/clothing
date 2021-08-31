@@ -1,0 +1,97 @@
+@media (max-width: 900px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .hamburger , 
+    .navbar .navbar-content ul li a .img-hidden{
+        display: block !important;
+    }
+    .mobile-links{
+        display: flex !important;
+    }
+    .category-type , 
+    .mobile-hidden{
+        display: none !important;
+    }
+    .header{
+        padding: 18px 0px;
+    }
+    header .item{
+        padding: 80px 0px 0px 0px;
+    }
+    .navbar{
+        padding: 0px !important;
+    }
+    .navbar .top-nav .content .icons-content li.cart .dropdown-menu .data{
+        max-height: 237px !important;
+    }
+    .navbar .top-nav .content{
+        justify-content: space-around;
+    }
+    .banners{
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .navbar .navbar-content ul{
+        flex-direction: column;
+        height: 78vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .navbar .top-nav .content .icons-content li{
+        margin: 0px 5px;
+    }
+    .navbar .navbar-content ul::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 0px;
+    }
+    .navbar .navbar-content ul::-webkit-scrollbar {
+        width: 0px;
+        background-color: transparent;
+    }
+    .navbar .navbar-content ul li {
+        width: 100%;
+        text-align: center;
+
+    }
+    .navbar .navbar-content ul li a{
+        width: 100%;
+        padding: 10px 15px;
+        justify-content: space-between;
+        border-bottom: 1px solid #181818d9;
+    }
+    .navbar .navbar-content ul li:last-child a{
+        border: none;
+    }
+    .navbar .navbar-content ul li a .text{
+       margin:  0px auto;
+    }
+    .navbar .top-nav .content .icons-content li.cart .dropdown-menu {
+        min-width: 300px;
+        transform: translate3d(-18px, 38px, 0px) !important;
+    }
+    header .item .content .buttons-contain{
+        padding: 0px  !important;
+    }
+    .form .box-content .radio-label img {
+        width: 48px;
+    }
+    .navbar .navbar-content{
+        display: none;
+    }
+    .meni-items .items{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: flex-start;
+    }
+}
